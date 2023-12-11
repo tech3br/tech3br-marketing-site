@@ -20,11 +20,12 @@ const Header = () => {
   const { enable, label, link } = config.nav_button;
 
   return (
-    <header className="header">
-      <nav className="navbar container">
+    <header className="header min-h-[62px]">
+      <nav className="navbar container h-full">
         {/* logo */}
-        <div className="order-0">
-          <Logo src={logo} />
+        <div className="order-0 flex items-center justify-center">
+          <Logo />
+          TECH3
         </div>
 
         {/* navbar toggler */}

@@ -6,9 +6,6 @@ import TagManager from "react-gtm-module";
 import "styles/style.scss";
 
 const App = ({ Component, pageProps }) => {
-  // default theme setup
-
-  // import google font css
   const pf = theme.fonts.font_family.primary;
   const sf = theme.fonts.font_family.secondary;
   const [fontcss, setFontcss] = useState();
@@ -20,7 +17,6 @@ const App = ({ Component, pageProps }) => {
     ).then((res) => res.text().then((css) => setFontcss(css)));
   }, [pf, sf]);
 
-  // google tag manager (gtm)
   const tagManagerArgs = {
     gtmId: config.params.tag_manager_id,
   };
@@ -36,7 +32,6 @@ const App = ({ Component, pageProps }) => {
   return (
     <>
       <Head>
-        {/* google font css */}
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
@@ -47,7 +42,6 @@ const App = ({ Component, pageProps }) => {
             __html: `${fontcss}`,
           }}
         />
-        {/* responsive meta */}
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=5"

@@ -1,92 +1,92 @@
 ---
 banner:
-  title: Let us solve your critical website development challenges
-  content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque <br/> totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus
+  title: "Transformamos suas ideias em realidade digital: sites, apps, redes sociais, design. Sua presença online em boas mãos!"
+  content: 
   image: /images/banner-art.svg
   button:
-    label: "Contact Us"
+    label: "Entrar em contato"
     link: "/contact"
 
 # feature
 feature: 
-  title: Something You Need To Know
+  title: O que fazemos
   features:
-  - name: "Clean Code"
+  - name: "Construa sua presença online"
     icon: "/images/code.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Object Oriented"
+    content: "Desenvolvemos websites personalizados que destacam sua marca, atraindo clientes e proporcionando uma experiência online única."
+  - name: "Do Conceito à Realidade Digital"
     icon: "/images/oop.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "24h Service"
+    content: "Transformamos suas ideias em aplicativos inovadores, proporcionando funcionalidade e experiências únicas para seus usuários."
+  - name: "Conecte-se, Engaje, Cresça"
     icon: "/images/user-clock.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Value for Money"
+    content: "Potencializamos sua presença nas redes sociais, criando estratégias envolventes que impulsionam o crescimento e a interação com seu público."
+  - name: "Design que Conta sua História"
     icon: "/images/love.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Faster Response"
+    content: "Da criação de logos à produção de conteúdo visual, oferecemos soluções criativas que comunicam a essência da sua marca de maneira envolvente."
+  - name: "Sua Marca, Sua Identidade"
     icon: "/images/speedometer.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Cloud Support"
+    content: "Construímos identidades de marca distintas, refletindo a personalidade do seu negócio e criando uma conexão duradoura com seu público."
+  - name: "Alavanque Seu Negócio com Tecnologia"
     icon: "/images/cloud.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    content: "Oferecemos consultoria em TI para impulsionar seu negócio, otimizando processos, aumentando a eficiência e mantendo-o à frente da concorrência."
 
 # services
 services:
-  - title: "It is the most advanced digital marketing and it company."
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+  - title: "Somos uma empresa que usa as melhores práticas de marketing digital e TI."
+    content: "Transforme sua presença online conosco! Somos uma empresa inovadora que se destaca ao empregar as mais avançadas estratégias de marketing digital e tecnologia da informação. Impulsionamos o seu negócio com soluções eficientes e personalizadas para alcançar o sucesso digital."
     images:
       - "/images/service-slide-1.png"
       - "/images/service-slide-2.png"
       - "/images/service-slide-3.png"
     button:
       enable: true
-      label: Check it out
+      label: Saber mais
       link: /contact
 
-  - title: "It is a privately owned Information and cyber security company"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+  - title: "Somos uma agência que também cuida dos seus dados"
+    content: "Cuidamos dos seus dados como se fossem nossos. Dados protegidos sempre."
     images: 
       - "/images/service-slide-1.png"
     button:
       enable: true
-      label: Check it out
+      label: Saber mais
       link: /contact
   
-  - title: "It’s a team of experienced and skilled people with distributions"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+  - title: "Um time especializado e com experiência de mercado"
+    content: "Nossos profissionais são treinados e já passaram por vários desafios de mercado que os deixam aptos para solucionar os seus problemas em TI."
     images:
       - "/images/service-slide-1.png"
       - "/images/service-slide-2.png"
       - "/images/service-slide-3.png"
     button:
       enable: true
-      label: Check it out
+      label: Saber mais 
       link: /contact
 
-  - title: "A company standing different from others"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+  - title: "Uma empresa que pensa fora da caixa"
+    content: "Trazemos o melhor a inovação e tecnologia para sua empresa. Tenha o melhor em TI."
     images:
       - "/images/service-slide-1.png"
       - "/images/service-slide-2.png"
       - "/images/service-slide-3.png"
     button:
       enable: true
-      label: Check it out
+      label: Saber mais
       link: /contact
 
 # workflow
 workflow: 
-  title: "Experience the best workflow with us"
+  title: "A melhor experiência de contrato é com a gente!"
   image: "/images/banner.svg"
   description: ""
 
 # call_to_action
 call_to_action:
-  title: Ready to get started?
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.
+  title: Preparado para trazer inovação para sua empresa?
+  content: Entre em contato e faça um orçamento conosco sem compromisso.  
   image: '/images/cta.svg'
   button:
     enable: true
-    label: "Contact Us"
+    label: "Entrar em contato"
     link: "/contact"
 ---

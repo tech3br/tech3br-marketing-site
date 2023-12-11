@@ -45,9 +45,9 @@ const Home = ({ frontmatter }) => {
       </section>
 
       {/* Features */}
-      <section className="section bg-theme-light">
+      <section className="section">
         <div className="container">
-          <div className="text-center">
+          <div className="text-center text-body">
             <h2>{markdownify(feature.title)}</h2>
           </div>
           <div className="mt-8 grid gap-x-8 gap-y-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -66,8 +66,8 @@ const Home = ({ frontmatter }) => {
                   />
                 )}
                 <div className="mt-4">
-                  {markdownify(item.name, "h3", "h5")}
-                  <p className="mt-3">{item.content}</p>
+                  {markdownify(item.name, "h3", "h5 text-body")}
+                  <p className="mt-3 text-body/80">{item.content}</p>
                 </div>
               </div>
             ))}
@@ -81,7 +81,7 @@ const Home = ({ frontmatter }) => {
         return (
           <section
             key={`service-${index}`}
-            className={`section ${isOdd && "bg-theme-light"}`}
+            className={`section`}
           >
             <div className="container">
               <div className="items-center gap-8 md:grid md:grid-cols-2">
@@ -113,7 +113,7 @@ const Home = ({ frontmatter }) => {
                     !isOdd && "md:order-1"
                   }`}
                 >
-                  <h2 className="font-bold leading-[40px]">{service?.title}</h2>
+                  <h2 className="font-bold leading-[40px] text-gray-50">{service?.title}</h2>
                   <p className="mt-4 mb-2">{service?.content}</p>
                   {service.button.enable && (
                     <Link

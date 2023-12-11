@@ -1,19 +1,27 @@
 {
   "main": [
     {
-      "name": "Home",
+      "name": "Início",
       "url": "/"
     },
     {
+      "name": "Sobre nós",
+      "url": "/about-us"
+    },
+    {
+      "name": "Serviços",
+      "url": "/services"
+    },
+    {
+      "name": "Clientes",
+      "url": "/customers"
+    },
+    {
       "name": "Blog",
-      "url": "/blogs"
+      "url": "blogs"
     },
     {
-      "name": "Pricing",
-      "url": "/pricing"
-    },
-    {
-      "name": "Contact",
+      "name": "Contato",
       "url": "/contact"
     },
     {
@@ -23,48 +31,57 @@
   ],
   "footer": [
     {
-      "name": "Company",
+      "name": "Agência",
       "menu": [
         {
-          "text": "Pricing",
-          "url": "/pricing"
+          "text": "Como fazer um orçamento",
+          "url": "#"
         },
         {
-          "text": "Quick Start",
+          "text": "Cotar",
+          "url": "/contact"
+        }
+      ]
+    },
+    {
+      "name": "Serviços",
+      "menu": [
+        {
+          "text": "Web",
+          "url": "#"
+        },
+        {
+          "text": "Mobile",
+          "url": "#"
+        },
+        {
+          "text": "Marca",
+          "url": "#"
+        },
+        {
+
+          "text": "Design",
+          "url": "#"
+        },
+        {
+          "text": "Redes Sociais",
           "url": "#"
         }
       ]
     },
     {
-      "name": "Product",
-      "menu": [
-        {
-          "text": "Features",
-          "url": "#"
-        },
-        {
-          "text": "Platform",
-          "url": "#"
-        },
-        {
-          "text": "Pricing",
-          "url": "/pricing"
-        }
-      ]
-    },
-    {
-      "name": "Support",
+      "name": "Suporte",
       "menu": [
         {
           "text": "FAQ",
           "url": "/faq"
         },
         {
-          "text": "Privacy Policy",
+          "text": "Política de Privacidade",
           "url": "#"
         },
         {
-          "text": "Terms & Conditions",
+          "text": "Termos & Condições",
           "url": "#"
         }
       ]

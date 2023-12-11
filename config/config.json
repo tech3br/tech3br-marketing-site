@@ -1,12 +1,12 @@
 {
   "site": {
-    "title": "Bigspring Light Nextjs",
+    "title": "TECH3BR - Desenvolvimento, Design e Marca",
     "base_url": "/",
-    "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
-    "logo_width": "200",
-    "logo_height": "48",
-    "logo_text": "Bigspring Light"
+    "favicon": "/images/tech3-logo-v2.svg",
+    "logo": "/images/tech3-logo-v2.svg",
+    "logo_width": "36",
+    "logo_height": "36",
+    "logo_text": "Tech3 Logo"
   },
 
   "settings": {
@@ -17,15 +17,15 @@
 
   "nav_button": {
     "enable": true,
-    "label": "Get Started",
+    "label": "Solicitar Orçamento",
     "link": "/contact"
   },
 
   "params": {
     "contact_form_action": "",
     "tag_manager_id": "",
-    "footer_content": "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur.",
-    "copyright": "Designed and Developed By [Themefisher](https://themefisher.com/)"
+    "footer_content": "Somos uma equipe dedicada na vanguarda da tecnologia, transformando ideias em realidade digital. Nossa paixão é criar soluções web inovadoras e personalizadas que impulsionam o sucesso dos nossos clientes.",
+    "copyright": "Designed and Developed By [tech3br](https://github.com/tech3br)"
   },
 
   "metadata": {
